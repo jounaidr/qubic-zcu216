@@ -1,0 +1,3 @@
+[submodule "submodules/qchip"]
+	path = submodules/qchip
+	url = git@gitlab.com:LBL-QubiC/QubicCali2021a.git

@@ -1,0 +1,26 @@
+{
+"fclk100":{"access": "r", "addr_width": 0, "data_width": 32, "sign": "unsigned", "init": "0", "base_addr": 1}
+,"fclk125":{"access": "r", "addr_width": 0, "data_width": 32, "sign": "unsigned", "init": "0", "base_addr": 2}
+,"fusersi570c0":{"access": "r", "addr_width": 0, "data_width": 32, "sign": "unsigned", "init": "0", "base_addr": 3}
+,"fusersi570c1":{"access": "r", "addr_width": 0, "data_width": 32, "sign": "unsigned", "init": "0", "base_addr": 4}
+,"fclk104plsysref":{"access": "r", "addr_width": 0, "data_width": 32, "sign": "unsigned", "init": "0", "base_addr": 5}
+,"fclk104plclk":{"access": "r", "addr_width": 0, "data_width": 32, "sign": "unsigned", "init": "0", "base_addr": 6}
+,"fclk_dac0":{"access": "r", "addr_width": 0, "data_width": 32, "sign": "unsigned", "init": "0", "base_addr": 7}
+,"fclk_dac1":{"access": "r", "addr_width": 0, "data_width": 32, "sign": "unsigned", "init": "0", "base_addr": 8}
+,"fclk_dac2":{"access": "r", "addr_width": 0, "data_width": 32, "sign": "unsigned", "init": "0", "base_addr": 9}
+,"fclk_dac3":{"access": "r", "addr_width": 0, "data_width": 32, "sign": "unsigned", "init": "0", "base_addr": 10}
+,"fclk_adc0":{"access": "r", "addr_width": 0, "data_width": 32, "sign": "unsigned", "init": "0", "base_addr": 11}
+,"fclk_adc1":{"access": "r", "addr_width": 0, "data_width": 32, "sign": "unsigned", "init": "0", "base_addr": 12}
+,"fclk_adc2":{"access": "r", "addr_width": 0, "data_width": 32, "sign": "unsigned", "init": "0", "base_addr": 13}
+,"fclk_adc3":{"access": "r", "addr_width": 0, "data_width": 32, "sign": "unsigned", "init": "0", "base_addr": 14}
+,"fclkadc3_300":{"access": "r", "addr_width": 0, "data_width": 32, "sign": "unsigned", "init": "0", "base_addr": 15}
+,"fclkadc3_600":{"access": "r", "addr_width": 0, "data_width": 32, "sign": "unsigned", "init": "0", "base_addr": 16}
+,"r0":{"access": "rw", "addr_width": 0, "data_width": 32, "sign": "unsigned", "init": "0", "base_addr": 17}
+,"r1":{"access": "rw", "addr_width": 0, "data_width": 32, "sign": "unsigned", "init": "0", "base_addr": 18}
+,"fpl_clk0":{"access": "r", "addr_width": 0, "data_width": 32, "sign": "unsigned", "init": "0", "base_addr": 19}
+,"r3":{"access": "rw", "addr_width": 0, "data_width": 32, "sign": "unsigned", "init": "0", "base_addr": 20}
+,"test":{"access": "rw", "addr_width": 0, "data_width": 32, "sign": "signed", "init": "-123", "base_addr": 21}
+,"test1":{"access": "rw", "addr_width": 0, "data_width": 32, "sign": "unsigned", "init": "0", "base_addr": 22}
+,"r2":{"access": "rw", "addr_width": 0, "data_width": 32, "sign": "unsigned", "init": "0", "base_addr": 23}
+,"gitrevision":{"access": "r", "addr_width": 0, "data_width": 32, "sign": "unsigned", "init": "0", "base_addr": 24}
+}

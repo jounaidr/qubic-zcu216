@@ -1,0 +1,6 @@
+{
+"fridge" : "Blizzard",
+"ip" : "192.168.1.124",
+"wiremap" : "wiremap.py",
+"default_qubit_cfg" : "qubitcfg.json"
+}

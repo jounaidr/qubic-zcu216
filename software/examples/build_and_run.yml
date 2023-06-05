@@ -1,0 +1,22 @@
+cache-dir: ./cache #not used yet
+
+compile-stage:
+    source: program.json
+    fpga-config: fpga_config.json
+    qubit-config: qubitcfg.json
+
+assemble-stage:
+    # specify source only if starting at assemble-stage
+    # source: program.json
+    channel-configs: channel_config.json
+    platform: rfsoc
+
+run:
+    gateware-version: 0c78124 #first 6 digits of gateware commit hash
+    nshot: 1000
+    navg: 10
+    outputs:
+        - raw-iq
+        - state-disc
+
+
