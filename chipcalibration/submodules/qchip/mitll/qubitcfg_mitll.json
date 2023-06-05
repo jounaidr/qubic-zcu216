@@ -1,0 +1,2138 @@
+{
+    "Qubits": {
+        "Q6": {
+            "freq": 275171459.26421994,
+            "readfreq": -32908802.20649403,
+            "freq_ef": 5420000000.0
+        },
+        "Q5": {
+            "freq": 188154137.96973372,
+            "readfreq": -69382852.91304566,
+            "freq_ef": 5420000000.0
+        },
+        "Q4": {
+            "freq": 82260501.58870837,
+            "readfreq": -90623014.3431291,
+            "freq_ef": 5420000000.0
+        },
+        "Q3": {
+            "freq": 56461319.32116869,
+            "readfreq": -120588786.21139574,
+            "freq_ef": 5420000000.0
+        },
+        "Q2": {
+            "freq": -27552206.59824283,
+            "readfreq": -139085626.0862471,
+            "freq_ef": 5420000000.0
+        },
+        "Q1": {
+            "freq": -117113206.85579659,
+            "readfreq": -172931070.26866564,
+            "freq_ef": 5420000000.0
+        },
+        "M1": {},
+        "M0": {},
+        "M3": {},
+        "M2": {}
+    },
+    "Gates": {
+        "M0mark": [
+            {
+                "dest": "M0.mark",
+                "pcarrier": 0.0,
+                "t0": 0.0,
+                "fcarrier": 0.0,
+                "env": [
+                    {
+                        "env_func": "mark",
+                        "paradict": {}
+                    }
+                ],
+                "amp": 1.0,
+                "twidth": 1e-06
+            }
+        ],
+        "Q1X180": [
+            {
+                "dest": "Q1.qdrv",
+                "env": [
+                    {
+                        "env_func": "cos_edge_square",
+                        "paradict": {
+                            "ramp_fraction": 0.25
+                        }
+                    }
+                ],
+                "pcarrier": 0.0,
+                "t0": 0.0,
+                "twidth1": 3.2e-08,
+                "env1": [
+                    {
+                        "env_func": "DRAG",
+                        "paradict": {
+                            "alpha": 1.4,
+                            "sigmas": 3,
+                            "delta": -268000000.0
+                        }
+                    }
+                ],
+                "fcarrier": "Q1.freq",
+                "amp": 0.38720121601402935,
+                "twidth": 2e-07
+            }
+        ],
+        "Q1X270": [
+            {
+                "dest": "Q1.qdrv",
+                "env": [
+                    {
+                        "env_func": "cos_edge_square",
+                        "paradict": {
+                            "ramp_fraction": 0.25
+                        }
+                    }
+                ],
+                "pcarrier": 0.0,
+                "fcarrier": "Q1.freq",
+                "t0": 0.0,
+                "env1": [
+                    {
+                        "env_func": "DRAG",
+                        "paradict": {
+                            "alpha": 1.4,
+                            "sigmas": 3,
+                            "delta": -268000000.0
+                        }
+                    }
+                ],
+                "amp": 0.39193132340351544,
+                "twidth": 3e-07
+            }
+        ],
+        "Q1X90": [
+            {
+                "dest": "Q1.qdrv",
+                "env": [
+                    {
+                        "env_func": "cos_edge_square",
+                        "paradict": {
+                            "ramp_fraction": 0.25
+                        }
+                    }
+                ],
+                "pcarrier": 0.0,
+                "fcarrier": "Q1.freq",
+                "t0": 0.0,
+                "env1": [
+                    {
+                        "env_func": "DRAG",
+                        "paradict": {
+                            "alpha": 1.4,
+                            "sigmas": 3,
+                            "delta": -268000000.0
+                        }
+                    }
+                ],
+                "amp": 0.38221700771887834,
+                "twidth": 1e-07,
+                "amp1": 0.7424965686377417
+            }
+        ],
+        "Q1Y-90": [
+            {
+                "dest": "Q1.qdrv",
+                "env": [
+                    {
+                        "env_func": "cos_edge_square",
+                        "paradict": {
+                            "ramp_fraction": 0.25
+                        }
+                    }
+                ],
+                "pcarrier": "-numpy.pi/2.0",
+                "fcarrier": "Q1.freq",
+                "t0": 0.0,
+                "env1": [
+                    {
+                        "env_func": "DRAG",
+                        "paradict": {
+                            "alpha": 1.4,
+                            "sigmas": 3,
+                            "delta": -268000000.0
+                        }
+                    }
+                ],
+                "amp": 0.39193132340351544,
+                "twidth": 1e-07
+            }
+        ],
+        "Q1Y180": [
+            {
+                "dest": "Q1.qdrv",
+                "env": [
+                    {
+                        "env_func": "cos_edge_square",
+                        "paradict": {
+                            "ramp_fraction": 0.25
+                        }
+                    }
+                ],
+                "pcarrier": "numpy.pi/2.0",
+                "fcarrier": "Q1.freq",
+                "t0": 0.0,
+                "env1": [
+                    {
+                        "env_func": "DRAG",
+                        "paradict": {
+                            "alpha": 1.4,
+                            "sigmas": 3,
+                            "delta": -268000000.0
+                        }
+                    }
+                ],
+                "amp": 0.39193132340351544,
+                "twidth": 2e-07
+            }
+        ],
+        "Q1Y270": [
+            {
+                "dest": "Q1.qdrv",
+                "env": [
+                    {
+                        "env_func": "cos_edge_square",
+                        "paradict": {
+                            "ramp_fraction": 0.25
+                        }
+                    }
+                ],
+                "pcarrier": "numpy.pi/2.0",
+                "fcarrier": "Q1.freq",
+                "t0": 0.0,
+                "env1": [
+                    {
+                        "env_func": "DRAG",
+                        "paradict": {
+                            "alpha": 1.4,
+                            "sigmas": 3,
+                            "delta": -268000000.0
+                        }
+                    }
+                ],
+                "amp": 0.39193132340351544,
+                "twidth": 3e-07
+            }
+        ],
+        "Q1Y90": [
+            {
+                "dest": "Q1.qdrv",
+                "env": [
+                    {
+                        "env_func": "cos_edge_square",
+                        "paradict": {
+                            "ramp_fraction": 0.25
+                        }
+                    }
+                ],
+                "pcarrier": "numpy.pi/2.0",
+                "fcarrier": "Q1.freq",
+                "t0": 0.0,
+                "env1": [
+                    {
+                        "env_func": "DRAG",
+                        "paradict": {
+                            "alpha": 1.4,
+                            "sigmas": 3,
+                            "delta": -268000000.0
+                        }
+                    }
+                ],
+                "amp": 0.39193132340351544,
+                "twidth": 1e-07
+            }
+        ],
+        "Q1rabi": [
+            {
+                "dest": "Q1.qdrv",
+                "env": [
+                    {
+                        "env_func": "cos_edge_square",
+                        "paradict": {
+                            "ramp_fraction": 0.25
+                        }
+                    }
+                ],
+                "pcarrier": 0.0,
+                "fcarrier": "Q1.freq",
+                "t0": 0.0,
+                "env1": [
+                    {
+                        "env_func": "DRAG",
+                        "paradict": {
+                            "alpha": 1.0,
+                            "sigmas": 3,
+                            "delta": -268000000.0
+                        }
+                    }
+                ],
+                "amp": 0.39193132340351544,
+                "twidth": 1.32e-07
+            }
+        ],
+        "Q1rabiaxn": [
+            {
+                "dest": "Q1.qdrv",
+                "env": [
+                    {
+                        "env_func": "cos_edge_square",
+                        "paradict": {
+                            "ramp_fraction": 0.25
+                        }
+                    }
+                ],
+                "pcarrier": 0.0,
+                "fcarrier": "Q1.freq",
+                "t0": 0.0,
+                "env1": [
+                    {
+                        "env_func": "DRAG",
+                        "paradict": {
+                            "alpha": 1.4,
+                            "sigmas": 3,
+                            "delta": -268000000.0
+                        }
+                    }
+                ],
+                "amp": 0.39193132340351544,
+                "twidth": 4.8e-08
+            }
+        ],
+        "Q1read": [
+            {
+                "dest": "Q1.rdrv",
+                "env1": [
+                    {
+                        "env_func": "square",
+                        "paradict": {
+                            "phase": 0.0,
+                            "amplitude": 1.0
+                        }
+                    }
+                ],
+                "pcarrier": 0.0,
+                "fcarrier": "Q1.readfreq",
+                "t0": 0.0,
+                "env": [
+                    {
+                        "env_func": "cos_edge_square",
+                        "paradict": {
+                            "ramp_fraction": 0.25
+                        }
+                    }
+                ],
+                "amp2": 0.2899927614431686,
+                "amp0": 0,
+                "amp": 0.31466372336903425,
+                "twidth": 2e-06,
+                "amp1": 0.9759405860976301
+            },
+            {
+                "dest": "Q1.read",
+                "pcarrier": 0.0,
+                "t0": 6.32e-07,
+                "fcarrier": "Q1.readfreq",
+                "env": [
+                    {
+                        "env_func": "square",
+                        "paradict": {
+                            "phase": 0.0,
+                            "amplitude": 1.0
+                        }
+                    }
+                ],
+                "amp": 1.0,
+                "twidth": 2e-06
+            }
+        ],
+        "Q1readout": [
+            {
+                "dest": "Q1.read",
+                "pcarrier": 0.0,
+                "t0": 0.0,
+                "fcarrier": "Q1.readfreq",
+                "env": [
+                    {
+                        "env_func": "square",
+                        "paradict": {
+                            "phase": 0.0,
+                            "amplitude": 1.0
+                        }
+                    }
+                ],
+                "amp": 1.0,
+                "twidth": 2e-06
+            }
+        ],
+        "Q1readoutdrv": [
+            {
+                "dest": "Q1.rdrv",
+                "env1": [
+                    {
+                        "env_func": "square",
+                        "paradict": {
+                            "phase": 0.0,
+                            "amplitude": 1.0
+                        }
+                    }
+                ],
+                "pcarrier": 0.0,
+                "fcarrier": "Q1.readfreq",
+                "t0": 0.0,
+                "env": [
+                    {
+                        "env_func": "cos_edge_square",
+                        "paradict": {
+                            "ramp_fraction": 0.25
+                        }
+                    }
+                ],
+                "amp": 0.31466372336903425,
+                "twidth": 2e-06
+            }
+        ],
+        "Q2X180": [
+            {
+                "dest": "Q2.qdrv",
+                "env": [
+                    {
+                        "env_func": "cos_edge_square",
+                        "paradict": {
+                            "ramp_fraction": 0.25
+                        }
+                    }
+                ],
+                "pcarrier": 0.0,
+                "t0": 0.0,
+                "twidth1": 3.2e-08,
+                "env1": [
+                    {
+                        "env_func": "DRAG",
+                        "paradict": {
+                            "alpha": 1.4,
+                            "sigmas": 3,
+                            "delta": -268000000.0
+                        }
+                    }
+                ],
+                "fcarrier": "Q2.freq",
+                "amp": 0.40222442642542516,
+                "twidth": 1.36e-07
+            }
+        ],
+        "Q2X270": [
+            {
+                "dest": "Q2.qdrv",
+                "env": [
+                    {
+                        "env_func": "cos_edge_square",
+                        "paradict": {
+                            "ramp_fraction": 0.25
+                        }
+                    }
+                ],
+                "pcarrier": 0.0,
+                "fcarrier": "Q2.freq",
+                "t0": 0.0,
+                "env1": [
+                    {
+                        "env_func": "DRAG",
+                        "paradict": {
+                            "alpha": 1.4,
+                            "sigmas": 3,
+                            "delta": -268000000.0
+                        }
+                    }
+                ],
+                "amp": 0.41113686897437896,
+                "twidth": 2.04e-07
+            }
+        ],
+        "Q2X90": [
+            {
+                "dest": "Q2.qdrv",
+                "env": [
+                    {
+                        "env_func": "cos_edge_square",
+                        "paradict": {
+                            "ramp_fraction": 0.25
+                        }
+                    }
+                ],
+                "pcarrier": 0.0,
+                "fcarrier": "Q2.freq",
+                "t0": 0.0,
+                "env1": [
+                    {
+                        "env_func": "DRAG",
+                        "paradict": {
+                            "alpha": 1.4,
+                            "sigmas": 3,
+                            "delta": -268000000.0
+                        }
+                    }
+                ],
+                "amp": 0.384699180855408,
+                "twidth": 6.8e-08,
+                "amp1": 0.7424965686377417
+            }
+        ],
+        "Q2Y-90": [
+            {
+                "dest": "Q2.qdrv",
+                "env": [
+                    {
+                        "env_func": "cos_edge_square",
+                        "paradict": {
+                            "ramp_fraction": 0.25
+                        }
+                    }
+                ],
+                "pcarrier": "-numpy.pi/2.0",
+                "fcarrier": "Q2.freq",
+                "t0": 0.0,
+                "env1": [
+                    {
+                        "env_func": "DRAG",
+                        "paradict": {
+                            "alpha": 1.4,
+                            "sigmas": 3,
+                            "delta": -268000000.0
+                        }
+                    }
+                ],
+                "amp": 0.41113686897437896,
+                "twidth": 6.8e-08
+            }
+        ],
+        "Q2Y180": [
+            {
+                "dest": "Q2.qdrv",
+                "env": [
+                    {
+                        "env_func": "cos_edge_square",
+                        "paradict": {
+                            "ramp_fraction": 0.25
+                        }
+                    }
+                ],
+                "pcarrier": "numpy.pi/2.0",
+                "fcarrier": "Q2.freq",
+                "t0": 0.0,
+                "env1": [
+                    {
+                        "env_func": "DRAG",
+                        "paradict": {
+                            "alpha": 1.4,
+                            "sigmas": 3,
+                            "delta": -268000000.0
+                        }
+                    }
+                ],
+                "amp": 0.41113686897437896,
+                "twidth": 1.36e-07
+            }
+        ],
+        "Q2Y270": [
+            {
+                "dest": "Q2.qdrv",
+                "env": [
+                    {
+                        "env_func": "cos_edge_square",
+                        "paradict": {
+                            "ramp_fraction": 0.25
+                        }
+                    }
+                ],
+                "pcarrier": "numpy.pi/2.0",
+                "fcarrier": "Q2.freq",
+                "t0": 0.0,
+                "env1": [
+                    {
+                        "env_func": "DRAG",
+                        "paradict": {
+                            "alpha": 1.4,
+                            "sigmas": 3,
+                            "delta": -268000000.0
+                        }
+                    }
+                ],
+                "amp": 0.41113686897437896,
+                "twidth": 2.04e-07
+            }
+        ],
+        "Q2Y90": [
+            {
+                "dest": "Q2.qdrv",
+                "env": [
+                    {
+                        "env_func": "cos_edge_square",
+                        "paradict": {
+                            "ramp_fraction": 0.25
+                        }
+                    }
+                ],
+                "pcarrier": "numpy.pi/2.0",
+                "fcarrier": "Q2.freq",
+                "t0": 0.0,
+                "env1": [
+                    {
+                        "env_func": "DRAG",
+                        "paradict": {
+                            "alpha": 1.4,
+                            "sigmas": 3,
+                            "delta": -268000000.0
+                        }
+                    }
+                ],
+                "amp": 0.41113686897437896,
+                "twidth": 6.8e-08
+            }
+        ],
+        "Q2rabi": [
+            {
+                "dest": "Q2.qdrv",
+                "env": [
+                    {
+                        "env_func": "cos_edge_square",
+                        "paradict": {
+                            "ramp_fraction": 0.25
+                        }
+                    }
+                ],
+                "pcarrier": 0.0,
+                "fcarrier": "Q2.freq",
+                "t0": 0.0,
+                "env1": [
+                    {
+                        "env_func": "DRAG",
+                        "paradict": {
+                            "alpha": 1.0,
+                            "sigmas": 3,
+                            "delta": -268000000.0
+                        }
+                    }
+                ],
+                "amp": 0.41113686897437896,
+                "twidth": 1.32e-07
+            }
+        ],
+        "Q2rabiaxn": [
+            {
+                "dest": "Q2.qdrv",
+                "env": [
+                    {
+                        "env_func": "cos_edge_square",
+                        "paradict": {
+                            "ramp_fraction": 0.25
+                        }
+                    }
+                ],
+                "pcarrier": 0.0,
+                "fcarrier": "Q2.freq",
+                "t0": 0.0,
+                "env1": [
+                    {
+                        "env_func": "DRAG",
+                        "paradict": {
+                            "alpha": 1.4,
+                            "sigmas": 3,
+                            "delta": -268000000.0
+                        }
+                    }
+                ],
+                "amp": 0.41113686897437896,
+                "twidth": 4.8e-08
+            }
+        ],
+        "Q2read": [
+            {
+                "dest": "Q2.rdrv",
+                "env1": [
+                    {
+                        "env_func": "square",
+                        "paradict": {
+                            "phase": 0.0,
+                            "amplitude": 1.0
+                        }
+                    }
+                ],
+                "pcarrier": 0.0,
+                "fcarrier": "Q2.readfreq",
+                "t0": 0.0,
+                "env": [
+                    {
+                        "env_func": "cos_edge_square",
+                        "paradict": {
+                            "ramp_fraction": 0.25
+                        }
+                    }
+                ],
+                "amp2": 0.2899927614431686,
+                "amp0": 0,
+                "amp": 0.6804230382623064,
+                "twidth": 2e-06,
+                "amp1": 0.9759405860976301
+            },
+            {
+                "dest": "Q2.read",
+                "pcarrier": 0.0,
+                "t0": 6.32e-07,
+                "fcarrier": "Q2.readfreq",
+                "env": [
+                    {
+                        "env_func": "square",
+                        "paradict": {
+                            "phase": 0.0,
+                            "amplitude": 1.0
+                        }
+                    }
+                ],
+                "amp": 1.0,
+                "twidth": 2e-06
+            }
+        ],
+        "Q2readout": [
+            {
+                "dest": "Q2.read",
+                "pcarrier": 0.0,
+                "t0": 0.0,
+                "fcarrier": "Q2.readfreq",
+                "env": [
+                    {
+                        "env_func": "square",
+                        "paradict": {
+                            "phase": 0.0,
+                            "amplitude": 1.0
+                        }
+                    }
+                ],
+                "amp": 1.0,
+                "twidth": 2e-06
+            }
+        ],
+        "Q2readoutdrv": [
+            {
+                "dest": "Q2.rdrv",
+                "env1": [
+                    {
+                        "env_func": "square",
+                        "paradict": {
+                            "phase": 0.0,
+                            "amplitude": 1.0
+                        }
+                    }
+                ],
+                "pcarrier": 0.0,
+                "fcarrier": "Q2.readfreq",
+                "t0": 0.0,
+                "env": [
+                    {
+                        "env_func": "cos_edge_square",
+                        "paradict": {
+                            "ramp_fraction": 0.25
+                        }
+                    }
+                ],
+                "amp": 0.6804230382623064,
+                "twidth": 2e-06
+            }
+        ],
+        "Q3X180": [
+            {
+                "dest": "Q3.qdrv",
+                "env": [
+                    {
+                        "env_func": "cos_edge_square",
+                        "paradict": {
+                            "ramp_fraction": 0.25
+                        }
+                    }
+                ],
+                "pcarrier": 0.0,
+                "t0": 0.0,
+                "twidth1": 3.2e-08,
+                "env1": [
+                    {
+                        "env_func": "DRAG",
+                        "paradict": {
+                            "alpha": 1.4,
+                            "sigmas": 3,
+                            "delta": -268000000.0
+                        }
+                    }
+                ],
+                "fcarrier": "Q3.freq",
+                "amp": 0.45287237138650294,
+                "twidth": 1.04e-07
+            }
+        ],
+        "Q3X270": [
+            {
+                "dest": "Q3.qdrv",
+                "env": [
+                    {
+                        "env_func": "cos_edge_square",
+                        "paradict": {
+                            "ramp_fraction": 0.25
+                        }
+                    }
+                ],
+                "pcarrier": 0.0,
+                "fcarrier": "Q3.freq",
+                "t0": 0.0,
+                "env1": [
+                    {
+                        "env_func": "DRAG",
+                        "paradict": {
+                            "alpha": 1.4,
+                            "sigmas": 3,
+                            "delta": -268000000.0
+                        }
+                    }
+                ],
+                "amp": 0.4802076749203444,
+                "twidth": 1.56e-07
+            }
+        ],
+        "Q3X90": [
+            {
+                "dest": "Q3.qdrv",
+                "env": [
+                    {
+                        "env_func": "cos_edge_square",
+                        "paradict": {
+                            "ramp_fraction": 0.25
+                        }
+                    }
+                ],
+                "pcarrier": 0.0,
+                "fcarrier": "Q3.freq",
+                "t0": 0.0,
+                "env1": [
+                    {
+                        "env_func": "DRAG",
+                        "paradict": {
+                            "alpha": 1.4,
+                            "sigmas": 3,
+                            "delta": -268000000.0
+                        }
+                    }
+                ],
+                "amp": 0.454024673531622,
+                "twidth": 5.2e-08,
+                "amp1": 0.7424965686377417
+            }
+        ],
+        "Q3Y-90": [
+            {
+                "dest": "Q3.qdrv",
+                "env": [
+                    {
+                        "env_func": "cos_edge_square",
+                        "paradict": {
+                            "ramp_fraction": 0.25
+                        }
+                    }
+                ],
+                "pcarrier": "-numpy.pi/2.0",
+                "fcarrier": "Q3.freq",
+                "t0": 0.0,
+                "env1": [
+                    {
+                        "env_func": "DRAG",
+                        "paradict": {
+                            "alpha": 1.4,
+                            "sigmas": 3,
+                            "delta": -268000000.0
+                        }
+                    }
+                ],
+                "amp": 0.4802076749203444,
+                "twidth": 5.2e-08
+            }
+        ],
+        "Q3Y180": [
+            {
+                "dest": "Q3.qdrv",
+                "env": [
+                    {
+                        "env_func": "cos_edge_square",
+                        "paradict": {
+                            "ramp_fraction": 0.25
+                        }
+                    }
+                ],
+                "pcarrier": "numpy.pi/2.0",
+                "fcarrier": "Q3.freq",
+                "t0": 0.0,
+                "env1": [
+                    {
+                        "env_func": "DRAG",
+                        "paradict": {
+                            "alpha": 1.4,
+                            "sigmas": 3,
+                            "delta": -268000000.0
+                        }
+                    }
+                ],
+                "amp": 0.4802076749203444,
+                "twidth": 1.04e-07
+            }
+        ],
+        "Q3Y270": [
+            {
+                "dest": "Q3.qdrv",
+                "env": [
+                    {
+                        "env_func": "cos_edge_square",
+                        "paradict": {
+                            "ramp_fraction": 0.25
+                        }
+                    }
+                ],
+                "pcarrier": "numpy.pi/2.0",
+                "fcarrier": "Q3.freq",
+                "t0": 0.0,
+                "env1": [
+                    {
+                        "env_func": "DRAG",
+                        "paradict": {
+                            "alpha": 1.4,
+                            "sigmas": 3,
+                            "delta": -268000000.0
+                        }
+                    }
+                ],
+                "amp": 0.4802076749203444,
+                "twidth": 1.56e-07
+            }
+        ],
+        "Q3Y90": [
+            {
+                "dest": "Q3.qdrv",
+                "env": [
+                    {
+                        "env_func": "cos_edge_square",
+                        "paradict": {
+                            "ramp_fraction": 0.25
+                        }
+                    }
+                ],
+                "pcarrier": "numpy.pi/2.0",
+                "fcarrier": "Q3.freq",
+                "t0": 0.0,
+                "env1": [
+                    {
+                        "env_func": "DRAG",
+                        "paradict": {
+                            "alpha": 1.4,
+                            "sigmas": 3,
+                            "delta": -268000000.0
+                        }
+                    }
+                ],
+                "amp": 0.4802076749203444,
+                "twidth": 5.2e-08
+            }
+        ],
+        "Q3rabi": [
+            {
+                "dest": "Q3.qdrv",
+                "env": [
+                    {
+                        "env_func": "cos_edge_square",
+                        "paradict": {
+                            "ramp_fraction": 0.25
+                        }
+                    }
+                ],
+                "pcarrier": 0.0,
+                "fcarrier": "Q3.freq",
+                "t0": 0.0,
+                "env1": [
+                    {
+                        "env_func": "DRAG",
+                        "paradict": {
+                            "alpha": 1.0,
+                            "sigmas": 3,
+                            "delta": -268000000.0
+                        }
+                    }
+                ],
+                "amp": 0.4802076749203444,
+                "twidth": 1.32e-07
+            }
+        ],
+        "Q3rabiaxn": [
+            {
+                "dest": "Q3.qdrv",
+                "env": [
+                    {
+                        "env_func": "cos_edge_square",
+                        "paradict": {
+                            "ramp_fraction": 0.25
+                        }
+                    }
+                ],
+                "pcarrier": 0.0,
+                "fcarrier": "Q3.freq",
+                "t0": 0.0,
+                "env1": [
+                    {
+                        "env_func": "DRAG",
+                        "paradict": {
+                            "alpha": 1.4,
+                            "sigmas": 3,
+                            "delta": -268000000.0
+                        }
+                    }
+                ],
+                "amp": 0.4802076749203444,
+                "twidth": 4.8e-08
+            }
+        ],
+        "Q3read": [
+            {
+                "dest": "Q3.rdrv",
+                "env1": [
+                    {
+                        "env_func": "square",
+                        "paradict": {
+                            "phase": 0.0,
+                            "amplitude": 1.0
+                        }
+                    }
+                ],
+                "pcarrier": 0.0,
+                "fcarrier": "Q3.readfreq",
+                "t0": 0.0,
+                "env": [
+                    {
+                        "env_func": "cos_edge_square",
+                        "paradict": {
+                            "ramp_fraction": 0.25
+                        }
+                    }
+                ],
+                "amp2": 0.2899927614431686,
+                "amp0": 0,
+                "amp": 0.6478713763747791,
+                "twidth": 2e-06,
+                "amp1": 0.9759405860976301
+            },
+            {
+                "dest": "Q3.read",
+                "pcarrier": 0.0,
+                "t0": 6.32e-07,
+                "fcarrier": "Q3.readfreq",
+                "env": [
+                    {
+                        "env_func": "square",
+                        "paradict": {
+                            "phase": 0.0,
+                            "amplitude": 1.0
+                        }
+                    }
+                ],
+                "amp": 1.0,
+                "twidth": 2e-06
+            }
+        ],
+        "Q3readout": [
+            {
+                "dest": "Q3.read",
+                "pcarrier": 0.0,
+                "t0": 0.0,
+                "fcarrier": "Q3.readfreq",
+                "env": [
+                    {
+                        "env_func": "square",
+                        "paradict": {
+                            "phase": 0.0,
+                            "amplitude": 1.0
+                        }
+                    }
+                ],
+                "amp": 1.0,
+                "twidth": 2e-06
+            }
+        ],
+        "Q3readoutdrv": [
+            {
+                "dest": "Q3.rdrv",
+                "env1": [
+                    {
+                        "env_func": "square",
+                        "paradict": {
+                            "phase": 0.0,
+                            "amplitude": 1.0
+                        }
+                    }
+                ],
+                "pcarrier": 0.0,
+                "fcarrier": "Q3.readfreq",
+                "t0": 0.0,
+                "env": [
+                    {
+                        "env_func": "cos_edge_square",
+                        "paradict": {
+                            "ramp_fraction": 0.25
+                        }
+                    }
+                ],
+                "amp": 0.6478713763747791,
+                "twidth": 2e-06
+            }
+        ],
+        "Q4X180": [
+            {
+                "dest": "Q4.qdrv",
+                "env": [
+                    {
+                        "env_func": "cos_edge_square",
+                        "paradict": {
+                            "ramp_fraction": 0.25
+                        }
+                    }
+                ],
+                "pcarrier": 0.0,
+                "t0": 0.0,
+                "twidth1": 3.2e-08,
+                "env1": [
+                    {
+                        "env_func": "DRAG",
+                        "paradict": {
+                            "alpha": 1.4,
+                            "sigmas": 3,
+                            "delta": -268000000.0
+                        }
+                    }
+                ],
+                "fcarrier": "Q4.freq",
+                "amp": 0.44245431485750936,
+                "twidth": 1.44e-07
+            }
+        ],
+        "Q4X270": [
+            {
+                "dest": "Q4.qdrv",
+                "env": [
+                    {
+                        "env_func": "cos_edge_square",
+                        "paradict": {
+                            "ramp_fraction": 0.25
+                        }
+                    }
+                ],
+                "pcarrier": 0.0,
+                "fcarrier": "Q4.freq",
+                "t0": 0.0,
+                "env1": [
+                    {
+                        "env_func": "DRAG",
+                        "paradict": {
+                            "alpha": 1.4,
+                            "sigmas": 3,
+                            "delta": -268000000.0
+                        }
+                    }
+                ],
+                "amp": 0.46003035999846487,
+                "twidth": 2.16e-07
+            }
+        ],
+        "Q4X90": [
+            {
+                "dest": "Q4.qdrv",
+                "env": [
+                    {
+                        "env_func": "cos_edge_square",
+                        "paradict": {
+                            "ramp_fraction": 0.25
+                        }
+                    }
+                ],
+                "pcarrier": 0.0,
+                "fcarrier": "Q4.freq",
+                "t0": 0.0,
+                "env1": [
+                    {
+                        "env_func": "DRAG",
+                        "paradict": {
+                            "alpha": 1.4,
+                            "sigmas": 3,
+                            "delta": -268000000.0
+                        }
+                    }
+                ],
+                "amp": 0.4448210932981116,
+                "twidth": 7.2e-08,
+                "amp1": 0.7424965686377417
+            }
+        ],
+        "Q4Y-90": [
+            {
+                "dest": "Q4.qdrv",
+                "env": [
+                    {
+                        "env_func": "cos_edge_square",
+                        "paradict": {
+                            "ramp_fraction": 0.25
+                        }
+                    }
+                ],
+                "pcarrier": "-numpy.pi/2.0",
+                "fcarrier": "Q4.freq",
+                "t0": 0.0,
+                "env1": [
+                    {
+                        "env_func": "DRAG",
+                        "paradict": {
+                            "alpha": 1.4,
+                            "sigmas": 3,
+                            "delta": -268000000.0
+                        }
+                    }
+                ],
+                "amp": 0.46003035999846487,
+                "twidth": 7.2e-08
+            }
+        ],
+        "Q4Y180": [
+            {
+                "dest": "Q4.qdrv",
+                "env": [
+                    {
+                        "env_func": "cos_edge_square",
+                        "paradict": {
+                            "ramp_fraction": 0.25
+                        }
+                    }
+                ],
+                "pcarrier": "numpy.pi/2.0",
+                "fcarrier": "Q4.freq",
+                "t0": 0.0,
+                "env1": [
+                    {
+                        "env_func": "DRAG",
+                        "paradict": {
+                            "alpha": 1.4,
+                            "sigmas": 3,
+                            "delta": -268000000.0
+                        }
+                    }
+                ],
+                "amp": 0.46003035999846487,
+                "twidth": 1.44e-07
+            }
+        ],
+        "Q4Y270": [
+            {
+                "dest": "Q4.qdrv",
+                "env": [
+                    {
+                        "env_func": "cos_edge_square",
+                        "paradict": {
+                            "ramp_fraction": 0.25
+                        }
+                    }
+                ],
+                "pcarrier": "numpy.pi/2.0",
+                "fcarrier": "Q4.freq",
+                "t0": 0.0,
+                "env1": [
+                    {
+                        "env_func": "DRAG",
+                        "paradict": {
+                            "alpha": 1.4,
+                            "sigmas": 3,
+                            "delta": -268000000.0
+                        }
+                    }
+                ],
+                "amp": 0.46003035999846487,
+                "twidth": 2.16e-07
+            }
+        ],
+        "Q4Y90": [
+            {
+                "dest": "Q4.qdrv",
+                "env": [
+                    {
+                        "env_func": "cos_edge_square",
+                        "paradict": {
+                            "ramp_fraction": 0.25
+                        }
+                    }
+                ],
+                "pcarrier": "numpy.pi/2.0",
+                "fcarrier": "Q4.freq",
+                "t0": 0.0,
+                "env1": [
+                    {
+                        "env_func": "DRAG",
+                        "paradict": {
+                            "alpha": 1.4,
+                            "sigmas": 3,
+                            "delta": -268000000.0
+                        }
+                    }
+                ],
+                "amp": 0.46003035999846487,
+                "twidth": 7.2e-08
+            }
+        ],
+        "Q4rabi": [
+            {
+                "dest": "Q4.qdrv",
+                "env": [
+                    {
+                        "env_func": "cos_edge_square",
+                        "paradict": {
+                            "ramp_fraction": 0.25
+                        }
+                    }
+                ],
+                "pcarrier": 0.0,
+                "fcarrier": "Q4.freq",
+                "t0": 0.0,
+                "env1": [
+                    {
+                        "env_func": "DRAG",
+                        "paradict": {
+                            "alpha": 1.0,
+                            "sigmas": 3,
+                            "delta": -268000000.0
+                        }
+                    }
+                ],
+                "amp": 0.46003035999846487,
+                "twidth": 1.32e-07
+            }
+        ],
+        "Q4rabiaxn": [
+            {
+                "dest": "Q4.qdrv",
+                "env": [
+                    {
+                        "env_func": "cos_edge_square",
+                        "paradict": {
+                            "ramp_fraction": 0.25
+                        }
+                    }
+                ],
+                "pcarrier": 0.0,
+                "fcarrier": "Q4.freq",
+                "t0": 0.0,
+                "env1": [
+                    {
+                        "env_func": "DRAG",
+                        "paradict": {
+                            "alpha": 1.4,
+                            "sigmas": 3,
+                            "delta": -268000000.0
+                        }
+                    }
+                ],
+                "amp": 0.46003035999846487,
+                "twidth": 4.8e-08
+            }
+        ],
+        "Q4read": [
+            {
+                "dest": "Q4.rdrv",
+                "env1": [
+                    {
+                        "env_func": "square",
+                        "paradict": {
+                            "phase": 0.0,
+                            "amplitude": 1.0
+                        }
+                    }
+                ],
+                "pcarrier": 0.0,
+                "fcarrier": "Q4.readfreq",
+                "t0": 0.0,
+                "env": [
+                    {
+                        "env_func": "cos_edge_square",
+                        "paradict": {
+                            "ramp_fraction": 0.25
+                        }
+                    }
+                ],
+                "amp2": 0.2899927614431686,
+                "amp0": 0,
+                "amp": 0.6329710109982334,
+                "twidth": 2e-06,
+                "amp1": 0.9759405860976301
+            },
+            {
+                "dest": "Q4.read",
+                "pcarrier": 0.0,
+                "t0": 6.32e-07,
+                "fcarrier": "Q4.readfreq",
+                "env": [
+                    {
+                        "env_func": "square",
+                        "paradict": {
+                            "phase": 0.0,
+                            "amplitude": 1.0
+                        }
+                    }
+                ],
+                "amp": 1.0,
+                "twidth": 2e-06
+            }
+        ],
+        "Q4readout": [
+            {
+                "dest": "Q4.read",
+                "pcarrier": 0.0,
+                "t0": 0.0,
+                "fcarrier": "Q4.readfreq",
+                "env": [
+                    {
+                        "env_func": "square",
+                        "paradict": {
+                            "phase": 0.0,
+                            "amplitude": 1.0
+                        }
+                    }
+                ],
+                "amp": 1.0,
+                "twidth": 2e-06
+            }
+        ],
+        "Q4readoutdrv": [
+            {
+                "dest": "Q4.rdrv",
+                "env1": [
+                    {
+                        "env_func": "square",
+                        "paradict": {
+                            "phase": 0.0,
+                            "amplitude": 1.0
+                        }
+                    }
+                ],
+                "pcarrier": 0.0,
+                "fcarrier": "Q4.readfreq",
+                "t0": 0.0,
+                "env": [
+                    {
+                        "env_func": "cos_edge_square",
+                        "paradict": {
+                            "ramp_fraction": 0.25
+                        }
+                    }
+                ],
+                "amp": 0.6329710109982334,
+                "twidth": 2e-06
+            }
+        ],
+        "Q5X180": [
+            {
+                "dest": "Q5.qdrv",
+                "env": [
+                    {
+                        "env_func": "cos_edge_square",
+                        "paradict": {
+                            "ramp_fraction": 0.25
+                        }
+                    }
+                ],
+                "pcarrier": 0.0,
+                "t0": 0.0,
+                "twidth1": 3.2e-08,
+                "env1": [
+                    {
+                        "env_func": "DRAG",
+                        "paradict": {
+                            "alpha": 1.4,
+                            "sigmas": 3,
+                            "delta": -268000000.0
+                        }
+                    }
+                ],
+                "fcarrier": "Q5.freq",
+                "amp": 0.3000438852996003,
+                "twidth": 1.12e-07
+            }
+        ],
+        "Q5X270": [
+            {
+                "dest": "Q5.qdrv",
+                "env": [
+                    {
+                        "env_func": "cos_edge_square",
+                        "paradict": {
+                            "ramp_fraction": 0.25
+                        }
+                    }
+                ],
+                "pcarrier": 0.0,
+                "fcarrier": "Q5.freq",
+                "t0": 0.0,
+                "env1": [
+                    {
+                        "env_func": "DRAG",
+                        "paradict": {
+                            "alpha": 1.4,
+                            "sigmas": 3,
+                            "delta": -268000000.0
+                        }
+                    }
+                ],
+                "amp": 0.30691572303875353,
+                "twidth": 1.68e-07
+            }
+        ],
+        "Q5X90": [
+            {
+                "dest": "Q5.qdrv",
+                "env": [
+                    {
+                        "env_func": "cos_edge_square",
+                        "paradict": {
+                            "ramp_fraction": 0.25
+                        }
+                    }
+                ],
+                "pcarrier": 0.0,
+                "fcarrier": "Q5.freq",
+                "t0": 0.0,
+                "env1": [
+                    {
+                        "env_func": "DRAG",
+                        "paradict": {
+                            "alpha": 1.4,
+                            "sigmas": 3,
+                            "delta": -268000000.0
+                        }
+                    }
+                ],
+                "amp": 0.30135307049962723,
+                "twidth": 5.6e-08,
+                "amp1": 0.7424965686377417
+            }
+        ],
+        "Q5Y-90": [
+            {
+                "dest": "Q5.qdrv",
+                "env": [
+                    {
+                        "env_func": "cos_edge_square",
+                        "paradict": {
+                            "ramp_fraction": 0.25
+                        }
+                    }
+                ],
+                "pcarrier": "-numpy.pi/2.0",
+                "fcarrier": "Q5.freq",
+                "t0": 0.0,
+                "env1": [
+                    {
+                        "env_func": "DRAG",
+                        "paradict": {
+                            "alpha": 1.4,
+                            "sigmas": 3,
+                            "delta": -268000000.0
+                        }
+                    }
+                ],
+                "amp": 0.30691572303875353,
+                "twidth": 5.6e-08
+            }
+        ],
+        "Q5Y180": [
+            {
+                "dest": "Q5.qdrv",
+                "env": [
+                    {
+                        "env_func": "cos_edge_square",
+                        "paradict": {
+                            "ramp_fraction": 0.25
+                        }
+                    }
+                ],
+                "pcarrier": "numpy.pi/2.0",
+                "fcarrier": "Q5.freq",
+                "t0": 0.0,
+                "env1": [
+                    {
+                        "env_func": "DRAG",
+                        "paradict": {
+                            "alpha": 1.4,
+                            "sigmas": 3,
+                            "delta": -268000000.0
+                        }
+                    }
+                ],
+                "amp": 0.30691572303875353,
+                "twidth": 1.12e-07
+            }
+        ],
+        "Q5Y270": [
+            {
+                "dest": "Q5.qdrv",
+                "env": [
+                    {
+                        "env_func": "cos_edge_square",
+                        "paradict": {
+                            "ramp_fraction": 0.25
+                        }
+                    }
+                ],
+                "pcarrier": "numpy.pi/2.0",
+                "fcarrier": "Q5.freq",
+                "t0": 0.0,
+                "env1": [
+                    {
+                        "env_func": "DRAG",
+                        "paradict": {
+                            "alpha": 1.4,
+                            "sigmas": 3,
+                            "delta": -268000000.0
+                        }
+                    }
+                ],
+                "amp": 0.30691572303875353,
+                "twidth": 1.68e-07
+            }
+        ],
+        "Q5Y90": [
+            {
+                "dest": "Q5.qdrv",
+                "env": [
+                    {
+                        "env_func": "cos_edge_square",
+                        "paradict": {
+                            "ramp_fraction": 0.25
+                        }
+                    }
+                ],
+                "pcarrier": "numpy.pi/2.0",
+                "fcarrier": "Q5.freq",
+                "t0": 0.0,
+                "env1": [
+                    {
+                        "env_func": "DRAG",
+                        "paradict": {
+                            "alpha": 1.4,
+                            "sigmas": 3,
+                            "delta": -268000000.0
+                        }
+                    }
+                ],
+                "amp": 0.30691572303875353,
+                "twidth": 5.6e-08
+            }
+        ],
+        "Q5rabi": [
+            {
+                "dest": "Q5.qdrv",
+                "env": [
+                    {
+                        "env_func": "cos_edge_square",
+                        "paradict": {
+                            "ramp_fraction": 0.25
+                        }
+                    }
+                ],
+                "pcarrier": 0.0,
+                "fcarrier": "Q5.freq",
+                "t0": 0.0,
+                "env1": [
+                    {
+                        "env_func": "DRAG",
+                        "paradict": {
+                            "alpha": 1.0,
+                            "sigmas": 3,
+                            "delta": -268000000.0
+                        }
+                    }
+                ],
+                "amp": 0.30691572303875353,
+                "twidth": 1.32e-07
+            }
+        ],
+        "Q5rabiaxn": [
+            {
+                "dest": "Q5.qdrv",
+                "env": [
+                    {
+                        "env_func": "cos_edge_square",
+                        "paradict": {
+                            "ramp_fraction": 0.25
+                        }
+                    }
+                ],
+                "pcarrier": 0.0,
+                "fcarrier": "Q5.freq",
+                "t0": 0.0,
+                "env1": [
+                    {
+                        "env_func": "DRAG",
+                        "paradict": {
+                            "alpha": 1.4,
+                            "sigmas": 3,
+                            "delta": -268000000.0
+                        }
+                    }
+                ],
+                "amp": 0.30691572303875353,
+                "twidth": 4.8e-08
+            }
+        ],
+        "Q5read": [
+            {
+                "dest": "Q5.rdrv",
+                "env1": [
+                    {
+                        "env_func": "square",
+                        "paradict": {
+                            "phase": 0.0,
+                            "amplitude": 1.0
+                        }
+                    }
+                ],
+                "pcarrier": 0.0,
+                "fcarrier": "Q5.readfreq",
+                "t0": 0.0,
+                "env": [
+                    {
+                        "env_func": "cos_edge_square",
+                        "paradict": {
+                            "ramp_fraction": 0.25
+                        }
+                    }
+                ],
+                "amp2": 0.2899927614431686,
+                "amp0": 0,
+                "amp": 0.6470954829540885,
+                "twidth": 2e-06,
+                "amp1": 0.9759405860976301
+            },
+            {
+                "dest": "Q5.read",
+                "pcarrier": 0.0,
+                "t0": 6.32e-07,
+                "fcarrier": "Q5.readfreq",
+                "env": [
+                    {
+                        "env_func": "square",
+                        "paradict": {
+                            "phase": 0.0,
+                            "amplitude": 1.0
+                        }
+                    }
+                ],
+                "amp": 1.0,
+                "twidth": 2e-06
+            }
+        ],
+        "Q5readout": [
+            {
+                "dest": "Q5.read",
+                "pcarrier": 0.0,
+                "t0": 0.0,
+                "fcarrier": "Q5.readfreq",
+                "env": [
+                    {
+                        "env_func": "square",
+                        "paradict": {
+                            "phase": 0.0,
+                            "amplitude": 1.0
+                        }
+                    }
+                ],
+                "amp": 1.0,
+                "twidth": 2e-06
+            }
+        ],
+        "Q5readoutdrv": [
+            {
+                "dest": "Q5.rdrv",
+                "env1": [
+                    {
+                        "env_func": "square",
+                        "paradict": {
+                            "phase": 0.0,
+                            "amplitude": 1.0
+                        }
+                    }
+                ],
+                "pcarrier": 0.0,
+                "fcarrier": "Q5.readfreq",
+                "t0": 0.0,
+                "env": [
+                    {
+                        "env_func": "cos_edge_square",
+                        "paradict": {
+                            "ramp_fraction": 0.25
+                        }
+                    }
+                ],
+                "amp": 0.6470954829540885,
+                "twidth": 2e-06
+            }
+        ],
+        "Q6X180": [
+            {
+                "dest": "Q6.qdrv",
+                "env": [
+                    {
+                        "env_func": "cos_edge_square",
+                        "paradict": {
+                            "ramp_fraction": 0.25
+                        }
+                    }
+                ],
+                "pcarrier": 0.0,
+                "t0": 0.0,
+                "twidth1": 3.2e-08,
+                "env1": [
+                    {
+                        "env_func": "DRAG",
+                        "paradict": {
+                            "alpha": 1.4,
+                            "sigmas": 3,
+                            "delta": -268000000.0
+                        }
+                    }
+                ],
+                "fcarrier": "Q6.freq",
+                "amp": 0.46288064068846746,
+                "twidth": 1.2e-07
+            }
+        ],
+        "Q6X270": [
+            {
+                "dest": "Q6.qdrv",
+                "env": [
+                    {
+                        "env_func": "cos_edge_square",
+                        "paradict": {
+                            "ramp_fraction": 0.25
+                        }
+                    }
+                ],
+                "pcarrier": 0.0,
+                "fcarrier": "Q6.freq",
+                "t0": 0.0,
+                "env1": [
+                    {
+                        "env_func": "DRAG",
+                        "paradict": {
+                            "alpha": 1.4,
+                            "sigmas": 3,
+                            "delta": -268000000.0
+                        }
+                    }
+                ],
+                "amp": 0.4804013533743656,
+                "twidth": 1.8e-07
+            }
+        ],
+        "Q6X90": [
+            {
+                "dest": "Q6.qdrv",
+                "env": [
+                    {
+                        "env_func": "cos_edge_square",
+                        "paradict": {
+                            "ramp_fraction": 0.25
+                        }
+                    }
+                ],
+                "pcarrier": 0.0,
+                "fcarrier": "Q6.freq",
+                "t0": 0.0,
+                "env1": [
+                    {
+                        "env_func": "DRAG",
+                        "paradict": {
+                            "alpha": 1.4,
+                            "sigmas": 3,
+                            "delta": -268000000.0
+                        }
+                    }
+                ],
+                "amp": 0.44808228811310474,
+                "twidth": 6e-08,
+                "amp1": 0.7424965686377417
+            }
+        ],
+        "Q6Y-90": [
+            {
+                "dest": "Q6.qdrv",
+                "env": [
+                    {
+                        "env_func": "cos_edge_square",
+                        "paradict": {
+                            "ramp_fraction": 0.25
+                        }
+                    }
+                ],
+                "pcarrier": "-numpy.pi/2.0",
+                "fcarrier": "Q6.freq",
+                "t0": 0.0,
+                "env1": [
+                    {
+                        "env_func": "DRAG",
+                        "paradict": {
+                            "alpha": 1.4,
+                            "sigmas": 3,
+                            "delta": -268000000.0
+                        }
+                    }
+                ],
+                "amp": 0.4804013533743656,
+                "twidth": 6e-08
+            }
+        ],
+        "Q6Y180": [
+            {
+                "dest": "Q6.qdrv",
+                "env": [
+                    {
+                        "env_func": "cos_edge_square",
+                        "paradict": {
+                            "ramp_fraction": 0.25
+                        }
+                    }
+                ],
+                "pcarrier": "numpy.pi/2.0",
+                "fcarrier": "Q6.freq",
+                "t0": 0.0,
+                "env1": [
+                    {
+                        "env_func": "DRAG",
+                        "paradict": {
+                            "alpha": 1.4,
+                            "sigmas": 3,
+                            "delta": -268000000.0
+                        }
+                    }
+                ],
+                "amp": 0.4804013533743656,
+                "twidth": 1.2e-07
+            }
+        ],
+        "Q6Y270": [
+            {
+                "dest": "Q6.qdrv",
+                "env": [
+                    {
+                        "env_func": "cos_edge_square",
+                        "paradict": {
+                            "ramp_fraction": 0.25
+                        }
+                    }
+                ],
+                "pcarrier": "numpy.pi/2.0",
+                "fcarrier": "Q6.freq",
+                "t0": 0.0,
+                "env1": [
+                    {
+                        "env_func": "DRAG",
+                        "paradict": {
+                            "alpha": 1.4,
+                            "sigmas": 3,
+                            "delta": -268000000.0
+                        }
+                    }
+                ],
+                "amp": 0.4804013533743656,
+                "twidth": 1.8e-07
+            }
+        ],
+        "Q6Y90": [
+            {
+                "dest": "Q6.qdrv",
+                "env": [
+                    {
+                        "env_func": "cos_edge_square",
+                        "paradict": {
+                            "ramp_fraction": 0.25
+                        }
+                    }
+                ],
+                "pcarrier": "numpy.pi/2.0",
+                "fcarrier": "Q6.freq",
+                "t0": 0.0,
+                "env1": [
+                    {
+                        "env_func": "DRAG",
+                        "paradict": {
+                            "alpha": 1.4,
+                            "sigmas": 3,
+                            "delta": -268000000.0
+                        }
+                    }
+                ],
+                "amp": 0.4804013533743656,
+                "twidth": 6e-08
+            }
+        ],
+        "Q6rabi": [
+            {
+                "dest": "Q6.qdrv",
+                "env": [
+                    {
+                        "env_func": "cos_edge_square",
+                        "paradict": {
+                            "ramp_fraction": 0.25
+                        }
+                    }
+                ],
+                "pcarrier": 0.0,
+                "fcarrier": "Q6.freq",
+                "t0": 0.0,
+                "env1": [
+                    {
+                        "env_func": "DRAG",
+                        "paradict": {
+                            "alpha": 1.0,
+                            "sigmas": 3,
+                            "delta": -268000000.0
+                        }
+                    }
+                ],
+                "amp": 0.4804013533743656,
+                "twidth": 1.32e-07
+            }
+        ],
+        "Q6rabiaxn": [
+            {
+                "dest": "Q6.qdrv",
+                "env": [
+                    {
+                        "env_func": "cos_edge_square",
+                        "paradict": {
+                            "ramp_fraction": 0.25
+                        }
+                    }
+                ],
+                "pcarrier": 0.0,
+                "fcarrier": "Q6.freq",
+                "t0": 0.0,
+                "env1": [
+                    {
+                        "env_func": "DRAG",
+                        "paradict": {
+                            "alpha": 1.4,
+                            "sigmas": 3,
+                            "delta": -268000000.0
+                        }
+                    }
+                ],
+                "amp": 0.4804013533743656,
+                "twidth": 4.8e-08
+            }
+        ],
+        "Q6read": [
+            {
+                "dest": "Q6.rdrv",
+                "env1": [
+                    {
+                        "env_func": "square",
+                        "paradict": {
+                            "phase": 0.0,
+                            "amplitude": 1.0
+                        }
+                    }
+                ],
+                "pcarrier": 0.0,
+                "fcarrier": "Q6.readfreq",
+                "t0": 0.0,
+                "env": [
+                    {
+                        "env_func": "cos_edge_square",
+                        "paradict": {
+                            "ramp_fraction": 0.25
+                        }
+                    }
+                ],
+                "amp2": 0.2899927614431686,
+                "amp0": 0,
+                "amp": 0.6721554880384905,
+                "twidth": 2e-06,
+                "amp1": 0.9759405860976301
+            },
+            {
+                "dest": "Q6.read",
+                "pcarrier": 0.0,
+                "t0": 6.32e-07,
+                "fcarrier": "Q6.readfreq",
+                "env": [
+                    {
+                        "env_func": "square",
+                        "paradict": {
+                            "phase": 0.0,
+                            "amplitude": 1.0
+                        }
+                    }
+                ],
+                "amp": 1.0,
+                "twidth": 2e-06
+            }
+        ],
+        "Q6readout": [
+            {
+                "dest": "Q6.read",
+                "pcarrier": 0.0,
+                "t0": 0.0,
+                "fcarrier": "Q6.readfreq",
+                "env": [
+                    {
+                        "env_func": "square",
+                        "paradict": {
+                            "phase": 0.0,
+                            "amplitude": 1.0
+                        }
+                    }
+                ],
+                "amp": 1.0,
+                "twidth": 2e-06
+            }
+        ],
+        "Q6readoutdrv": [
+            {
+                "dest": "Q6.rdrv",
+                "env1": [
+                    {
+                        "env_func": "square",
+                        "paradict": {
+                            "phase": 0.0,
+                            "amplitude": 1.0
+                        }
+                    }
+                ],
+                "pcarrier": 0.0,
+                "fcarrier": "Q6.readfreq",
+                "t0": 0.0,
+                "env": [
+                    {
+                        "env_func": "cos_edge_square",
+                        "paradict": {
+                            "ramp_fraction": 0.25
+                        }
+                    }
+                ],
+                "amp": 0.6721554880384905,
+                "twidth": 2e-06
+            }
+        ]
+    }
+}

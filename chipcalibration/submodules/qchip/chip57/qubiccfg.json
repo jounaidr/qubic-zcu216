@@ -1,0 +1,9 @@
+{
+	"chipname":"chip57"
+	,"wafer":""
+	,"fridge":"Snowball"
+	,"chassis":"qubiceval1"
+	,"chassisinfo":"../chassisinfo.json"
+	,"qubitcfg":"qubitcfg.json"
+	,"wiremap":"wiremap"
+}

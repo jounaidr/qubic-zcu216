@@ -1,0 +1,24 @@
+Name: MyDevice
+N_Systems: 2
+Mode: ZXZXZ
+Dimension: 2
+
+Gates:
+- Z:
+    Hamiltonian:
+      - ["Z", phi]
+    Involving: {'(5,)': (), '(6,)': ()}
+
+- X:
+    Hamiltonian:
+      - ["X", 90]
+    Involving: {'(5,)': (), '(6,)': ()}
+
+- CNOT:
+    Matrix:
+      - [1, 0, 0, 0]
+      - [0, 1, 0, 0]
+      - [0, 0, 0, 1]
+      - [0, 0, 1, 0]
+    Involving:
+      (6, 5) : ()

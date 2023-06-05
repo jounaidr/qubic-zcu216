@@ -1,0 +1,10 @@
+{
+    "Q1": "gmix_rabi_ip192.168.1.124_port3000_regmappathqubic_regmap.json_wavegrppathqubic_wavegrp.json_qubitidQ1_nget2_20210717_003709_522070.joblib",
+    "Q0": "gmix_rabief_qubitidQ0_qubitidread['Q0']_nget10_elementlength40_elementstep1.6e-08_readoutdrvamp0.25_20201010_175356_045592.joblib",
+    "Q3": "gmix_rabi_ip192.168.1.124_port3000_regmappathqubic_regmap.json_wavegrppathqubic_wavegrp.json_qubitidQ3_nget2_20210717_012808_347507.joblib",
+    "Q2": "gmix_rabi_ip192.168.1.124_port3000_regmappathqubic_regmap.json_wavegrppathqubic_wavegrp.json_qubitidQ2_nget2_20210717_003230_162740.joblib",
+    "Q5": "gmix_rabief_qubitidQ5_qubitidread['Q5']_nget10_20201010_175814_249040.joblib",
+    "Q4": "gmix_rabi_qubitidQ4_qubitidreadQ4_nget10_20201112_225845_723637.joblib",
+    "Q7": "gmix_rabi_nget20_qubitidQ7_qubitidreadQ7_readoutdrvamp0.0001_qubitdrvamp0.0001_fqubit-70000000.0_fread-330000000.0_20201115_235617_124072.joblib",
+    "Q6": "gmix_rabi_qubitidQ6_qubitidreadQ6_nget10_20201011_213216_714468.joblib"
+}
